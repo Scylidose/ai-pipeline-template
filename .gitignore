@@ -1,0 +1,48 @@
+# Ignore compiled Python files and cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore system-specific folders
+.idea/
+.vscode/
+
+# Ignore environment-related files
+env/
+venv/
+*.env
+
+# Ignore data files and models
+data/raw_data/
+data/processed_data/
+data/models/
+
+# Ignore logs and temporary files
+logs/
+temp/
+*.log
+
+# Ignore database files
+*.db
+
+# Ignore compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package build directories
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore generated files from notebooks
+.ipynb_checkpoints/
+
+# Ignore user-specific configuration files
+*.bak
+*.swp
+.DS_Store
+
